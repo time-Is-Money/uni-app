@@ -120,9 +120,12 @@ var animation = uni.createAnimation({
 
 ```javascript
 export default{
-  data: {
-    animationData: {}
-  },
+
+data() {
+		return {
+			animationData: {}
+		};
+	},
   onShow: function(){
     var animation = uni.createAnimation({
       duration: 1000,
